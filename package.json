@@ -1,0 +1,32 @@
+{
+  "name": "eva",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CommandStructure.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@squarecloudofc/status": "^1.0.0",
+    "@squarecloudofc/utils": "^1.0.2",
+    "canvas": "^2.11.0",
+    "chalk": "^4.0.0",
+    "discord-api-types": "^0.33.2",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.1",
+    "fs": "^0.0.1-security",
+    "markov-chains": "^1.0.2",
+    "markov-strings": "^3.0.1",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^6.3.5",
+    "ms": "^2.1.3",
+    "node-fetch": "^3.2.10",
+    "simply-xp": "^1.3.4",
+    "wait": "^0.4.2"
+  }
+}
