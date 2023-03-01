@@ -1,6 +1,6 @@
 const {IntentsBitField, Options} = require('discord.js')
 const App = require('./src/app/AppLauntch')
-const ZeroBot = new App({
+const RitualBot = new App({
     intents: new IntentsBitField(65535),
     fetchAllMembers: true,
     messageCacheLifetime: 0,
@@ -25,7 +25,7 @@ const ZeroBot = new App({
     }),
 })
 
-ZeroBot.start({
+RitualBot.start({
     sourceCommands: './src/commands',
     sourceListeners: './src/listeners/discord'
 });
